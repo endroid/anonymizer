@@ -14,7 +14,9 @@
     "require": {
         "php": ">=7.4",
         "doctrine/common": "^2.0||^3.0",
-        "fzaninotto/faker": "^1.0"
+        "endroid/installer": "^1.2",
+        "fzaninotto/faker": "^1.0",
+        "symfony/event-dispatcher": "^5.1"
     },
     "require-dev": {
         "endroid/quality": "dev-master"
