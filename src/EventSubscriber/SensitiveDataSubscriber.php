@@ -10,6 +10,8 @@ class SensitiveDataSubscriber implements EventSubscriberInterface
 {
     public static function getSubscribedEvents(): array
     {
+        dump('test');
+        die;
         return [];
     }
 }
