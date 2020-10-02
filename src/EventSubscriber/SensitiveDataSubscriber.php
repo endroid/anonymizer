@@ -12,6 +12,7 @@ class SensitiveDataSubscriber implements EventSubscriberInterface
     {
         dump('test');
         die;
+
         return [];
     }
 }
