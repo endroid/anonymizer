@@ -12,7 +12,8 @@ use Doctrine\Common\Annotations\Annotation;
  */
 class SensitiveData
 {
-    public string $type;
+    /** @var string */
+    public $type;
 
     public function getType(): string
     {

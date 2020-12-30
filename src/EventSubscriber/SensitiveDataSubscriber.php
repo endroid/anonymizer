@@ -8,11 +8,9 @@ use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class SensitiveDataSubscriber implements EventSubscriberInterface
 {
+    /** @return array<string> */
     public static function getSubscribedEvents(): array
     {
-        dump('test');
-        die;
-
         return [];
     }
 }
